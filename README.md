@@ -1,8 +1,6 @@
- # CV Drone (= OpenCV + AR.Drone)
-
- ###### Copyright (C) 2015 puku0x
-
- ##### https://github.com/puku0x/cvdrone
+# CV Drone (= OpenCV + AR.Drone)
+###### Copyright (C) 2015 puku0x
+##### https://github.com/puku0x/cvdrone
 
 ------------------------------------------------------------------------------------------
 
