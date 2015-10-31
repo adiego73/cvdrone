@@ -14,3 +14,7 @@
 
 obj
 
+/Release/
+/Debug/
+/Shared/
+/Static/
