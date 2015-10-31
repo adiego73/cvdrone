@@ -2,11 +2,12 @@
 <?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
 	<storageModule moduleId="org.eclipse.cdt.core.settings">
 		<cconfiguration id="cdt.managedbuild.config.gnu.exe.release.1156874867">
-			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.exe.release.1156874867" moduleId="org.eclipse.cdt.core.settings" name="Shared">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.exe.release.1156874867" moduleId="org.eclipse.cdt.core.settings" name="Static">
 				<externalSettings>
 					<externalSetting>
 						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/cvdrone"/>
 						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/cvdrone/Release"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/cvdrone/Shared"/>
 						<entry flags="RESOLVED" kind="libraryFile" name="cvdrone" srcPrefixMapping="" srcRootPath=""/>
 					</externalSetting>
 				</externalSettings>
@@ -15,12 +16,11 @@
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
-					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 				</extensions>
 			</storageModule>
 			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-				<configuration artifactExtension="so" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.sharedLib" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.sharedLib" cleanCommand="rm -rf" description="Shared library" id="cdt.managedbuild.config.gnu.exe.release.1156874867" name="Shared" parent="cdt.managedbuild.config.gnu.exe.release" postannouncebuildStep="Move shared library to lib folder" postbuildStep="mkdir ../lib &amp;&amp; mv -f libcvdrone.so ../lib/libcvdrone.so">
+				<configuration artifactExtension="a" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.staticLib" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.staticLib" cleanCommand="rm -rf" description="Static library" id="cdt.managedbuild.config.gnu.exe.release.1156874867" name="Static" parent="cdt.managedbuild.config.gnu.exe.release" postannouncebuildStep="Move shared library to lib folder" postbuildStep="mkdir -p ../lib &amp;&amp; mv -f libcvdrone.a ../lib/libcvdrone.a">
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.release.1156874867." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.release.1161919911" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.release">
 							<targetPlatform id="cdt.managedbuild.target.gnu.platform.exe.release.599057488" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.release"/>
